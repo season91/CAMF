@@ -8,7 +8,7 @@ Unity 프로젝트의 핵심 게임 로직 및 Firebase 연동 관련 C# 스크�
 ```
 01.Scripts/
 ├── Data/
-│ ├── RowData/ # 마스터 데이터 구조 정의 (Firebase )
+│ ├── RowData/ # 마스터 데이터 구조 정의 (Firebase)
 │ ├── Table/ # 게임 내 구조화된 테이블 데이터
 │ ├── User/ # 유저 저장용
 │
@@ -76,7 +76,7 @@ Unity 프로젝트의 핵심 게임 로직 및 Firebase 연동 관련 C# 스크�
 
 - 데이터 구조의 명확한 분리 (RowData, UserData)
 - 서비스 기반 설계 패턴 (단일 책임 원칙 중심)
-- Firebase 연동 최적화 및 예외 대응
+- Firebase 연동
 - 코드 테스트 및 유지보수 용이성
 
 ---
